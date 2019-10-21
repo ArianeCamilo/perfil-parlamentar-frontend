@@ -1,8 +1,7 @@
-# Perfil Político
-
-Front-end for [Perfil Político](https://github.com/okfn-brasil/perfil-politico)
+# Perfil Parlamentar
+This project ia a fork of [Perfil Político](https://github.com/okfn-brasil/perfil-politico)
  — a platform for profiling candidates in Brazilian 2018 General Election,
- based entirely on open data.
+ based entirely on open data. With a filter of federal parliamentarians elected in Brazil in 2018.
 
 ## Requirements
 
