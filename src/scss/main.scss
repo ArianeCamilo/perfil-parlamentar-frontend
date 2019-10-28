@@ -138,11 +138,11 @@ svg.viz{
 
 #top-bar{
   border: 1.5px solid $secondary-color;
-  background: $white;
-  height: 78px;
-  width: 540px;
+  background: $white;  
+  // height: 160px;
+  width: 550px;
   margin: 0 auto 20px auto;
-  font-size: 0;
+  // font-size: 0;
 
   .top-icon, .top-menu{
     width: 62px;
@@ -153,16 +153,16 @@ svg.viz{
 
     img{
       display: inline-block;
-      width: 36px;
+      width: 150px;
     }
 
 
     @media (max-width: 580px){
       width: 60px;
-      margin: -2px 0 0 0;
+      margin: -2px 0 0 0;      
 
       img{
-        width: 30px;
+        width: 120px;
       }
     }
 
@@ -171,7 +171,7 @@ svg.viz{
       margin: 0 0 0 0;
 
       img{
-        width: 28px;
+        width: 70px;
       }
     }
   }
@@ -196,22 +196,26 @@ svg.viz{
     width: calc(540px - 160px);
     display: inline-block;
     font: 4.0rem $font-default;
+    font-size: 60px;
+    padding-left: 100px;    
     font-weight: 700;
-    line-height: 7.4rem;
-    text-align: center;
+    // line-height: 7.4rem;
+    // text-align: center;
     margin: 0 auto;
-    vertical-align: middle;
+    vertical-align: bottom;
     color: $secondary-color;
 
     @media (max-width: 580px){
-      font-size: 3.2rem;
-      line-height: 6rem;
+      font-size: 5rem;
+      // line-height: 4.5rem;
       width: calc(100% - 130px);
+      padding-left: 70px;
     }
 
     @media (max-width: 430px){
-      font-size: 2.4rem;
-      line-height: 5rem;
+      font-size: 3.4rem;
+      padding-left: 30px;
+      // line-height: 5rem;
       width: calc(100% - 90px);
     }
 
@@ -223,12 +227,12 @@ svg.viz{
   @media (max-width: 580px){
     width: calc(100% - 30px);
     margin: 2.8rem 0px 3.2rem 0px;
-    height: 68px;
+    // height: 68px;
   }
   @media (max-width: 430px){
-    width: calc(100% - 0px);
+    width: calc(100% - -10px);
     margin: 1.4rem 0px 1.4rem 0px;
-    height: 54px;
+    height: 80px;
   }
 }
 
